@@ -1,0 +1,86 @@
+/*GERAL*/
+*{
+  box-sizing: border-box; /* SE COLOCAR PADDIN NÃO AUMENTA CONTEÚDO */
+}
+
+body{
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    text-align: left;
+    margin: 0 auto;   
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.col-1-de-3{
+    display: inline-block;
+    width: 33%;
+}
+.col-2-de-3{
+    display: inline-block;
+    width: 66%;
+}
+
+.header__titulo {
+    text-transform: uppercase;
+    color:#9013FE;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: center;
+}
+
+.autora{
+    border: 1px solid lightgray;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+    height: 560px;
+}
+
+.autora__nome,
+.autora__ocupacao{
+    margin:0;
+}
+
+.autora__nome{
+    margin-top:10px;
+}
+.article{
+    margin-left: 30px;
+}
+
+.article__titulo{
+    font-size:36px;
+    margin:0;
+    
+}
+
+.article p {
+    font-size:24px;
+}
+
+footer{
+    background-color: #9013FE;
+    text-align: center;
+    color:white;
+}
+.rodape__p{
+    margin:0;
+    padding:10px 0;
+}
+
+
+
+
+/*
+header{
+    color: blueviolet;
+    text-align: center;
+    display:inline;
+}
+
+main{
+    width: 60%;
+    align-content: left;
+    display: inline-block;
+} */
