@@ -3,6 +3,49 @@
   box-sizing: border-box; /* SE COLOCAR PADDIN NÃO AUMENTA CONTEÚDO */
 }
 
+/* Para fazer sem utilizar classes com BEM
+ul>li>a{   
+    text-decoration: none;
+}*/
+
+a{
+    text-decoration: none;
+    color:gray;
+    
+}
+
+.topbar{
+    position: fixed;
+    top:0; /*Para colocar a barra bem em cima*/
+    width: 100%;
+    padding: 5px 95px;
+    background-color: white;
+    box-shadow:0 1px 4px rgba(0, 0, 0, .15);
+    z-index:999;
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Com BEM */
+.menu {
+    display: inline-block; /*Para ficar um do lado do outro*/
+    list-style: none;
+    margin-left: 700px;
+     
+}
+
+.menu__item{
+    display: inline;
+    padding: 10px;
+    color: gray;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+
 body{
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     text-align: left;
@@ -27,6 +70,7 @@ body{
     font-weight: lighter;
     font-size: 16px;
     text-align: center;
+    padding-top:100px;
 }
 
 .autora{
